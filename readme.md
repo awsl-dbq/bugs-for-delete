@@ -20,6 +20,13 @@ cd v1
 for version two bugs, use `v2/dgraph_release_v20.07.1` to setup the dgraph db.
 I`make` this dgraph bin based on the `release/v20.07.1` branch.
 
+
+```
+cd v2
+./dgraph_release_v20.07.1 zero 
+./dgraph_release_v20.07.1 alpha
+```
+
 ## third
 **live load the data**
 v1 bugs load
